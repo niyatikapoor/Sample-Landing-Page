@@ -1,0 +1,291 @@
+head, body{
+    margin: 0;
+    padding: 0;
+}
+.bg-img {
+    /* The image used */
+    background-image: url("travis.jpg");
+    max-height: 300px; 
+    height: 40%;
+    /* Center and scale the image nicely */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* Needed to position the navbar */
+    position: relative;
+
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 0;
+    width: auto;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    background-color: none;
+    
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding-left:0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+  }
+  
+ 
+  .topnav ul{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    list-style-type: none;
+    margin: 0px;
+  }  
+  .topnav img{
+      float: left;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 40px ;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+ 
+  #tt {
+      display: inline;
+     background-color: transparent;
+     color: white;
+     border-radius: 25px;
+     border-color: white;
+     border-width: 0.8px;
+     text-decoration: none;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 8px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 25px;
+    margin-right: 400px;
+    line-height: 2.8em;
+ }  
+ .bg-img button{
+   width: 205px;
+   
+ }
+#mm {
+    padding-left: 0px;
+    margin-left: -20px;
+    margin-right: 360px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  max-height: 690px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  right: 450px;
+  top: 100px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+
+.card a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.bt1{
+  background-color: white;
+  color: black;
+  position: relative;
+  border: none;
+  top: -61px;
+right: 4px;
+padding: 11.5px 0px;
+border-radius: 25px;
+max-width: 170px;
+text-align: center;
+font-size: 9px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+.bt2{
+  position: relative;
+  top: -49px;
+  right: -10.5px;
+}
+.card h5{
+  font-family: 'Roboto',sans-serif;
+  position: relative;
+  top: -50px;
+right: 85px;
+font-weight: bold;
+font-size: 15px;
+}
+.card p{
+  font-size: 14px;
+  color: gray;
+  text-align: left;
+ position: relative;
+ top: -60px;
+ left: 17px;
+}
+.card a{
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  bottom: 65px;
+  right: 65px;
+  color: rgb(243, 12, 31);
+}
+.follow span{
+  color: black;
+  font-weight: bold;
+}
+.followers{
+  position: relative;
+  left: 100px;
+  right: -50px;
+}
+.following{
+  position: relative;
+  left: 107px;
+  right: -55px;
+}
+.songs{
+  position: relative;
+  left: 132px;
+}
+.follow{
+  font-size: 15px;
+  font-family: 'Roboto',sans-serif;
+  font-weight: bold;
+}
+.card2{
+  /* Add shadows to create the "card" effect */
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+  left: 380px;
+  top: 60px;
+  background-color: white;
+  max-width: 800px;
+min-height: 200px;
+max-height: 250px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card2:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card2 h4{
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(87, 80, 80);
+  padding-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  font-size: 20px;
+}
+.container2{
+  display: inline;
+}
+.play{
+  margin-left: 40px;
+  margin-bottom: -40px;
+}
+.hash{
+  margin-top: -120px;
+  margin-left: 80px;
+  padding: 0px 0px;
+  opacity: 0.3;
+}
+.hash2 img{
+  opacity: 0.3;
+  margin-top: -188px;
+  padding-bottom: 20px;
+  margin-left: 480.5px;
+  position: absolute;
+  clip: rect(0px,256px,181px,0px);
+}
+.heart {
+
+  display: inline-block;
+  position: relative;
+  bottom: 220px;
+  left: 670px;
+}
+.heart p{
+  font-family: 'Roboto',sans-serif;
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+  position: relative;
+  bottom: 31.5px;
+  left: 22px;
+}
+.share {
+
+  display: inline-block;
+  position: relative;
+  bottom: 222px;
+  left: 700px;
+}
+.share p{
+  font-family: 'Roboto',sans-serif;
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+  position: relative;
+  bottom: 30px;
+  left: 22px;
+}
+.ig{
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  left: 335px;
+  top: 170px;
+  font-family: 'Poppins',sans-serif;
+}
+  
+.ig button{
+  display: inline;
+  background-color: transparent;
+  color: white;
+  border-color: rgb(235, 228, 228);
+  border-radius: 25px;
+  border-width: 0.8px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Roboto',sans-serif;
+  font-weight: bold;
+  line-height: 2.8em;
+  position: relative;
+  bottom: 65px;
+  left: 700px;
+  padding-top: -20px;
+  padding-bottom: -20px;
+}
+.ig img{
+  position: relative;
+  padding-right: 9px;
+ margin-bottom: -3px;
+}
